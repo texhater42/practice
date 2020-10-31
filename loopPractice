@@ -486,6 +486,17 @@ int main(){
                                        }
                                            if (winning_Votes == 0)
                                            {
+                                               printf("The Tallies of the numbers are: \n");
+                                               printf("Number %d: %d votes.", num1, cand1);
+                                               printf("\nNumber %d: %d votes.", num1 + 1, cand2);
+                                               printf("\nNumber %d: %d votes.", num1 + 2, cand3);
+                                               printf("\nNumber %d: %d votes.", num1 + 3, cand4);
+                                               printf("\nNumber %d: %d votes.", num1 + 4, cand5);
+                                               printf("\nNumber %d: %d votes.", num1 + 5, cand6);
+                                               printf("\nNumber %d: %d votes.", num1 + 6, cand7);
+                                               printf("\nNumber %d: %d votes.", num1 + 7, cand8);
+                                               printf("\nNumber %d: %d votes.", num1 + 8, cand9);
+                                               printf("\nNumber %d: %d votes.", num1 + 9, cand10);
                                                printf("There were no votes properly casted.");
                                                return 0;
                                            }
