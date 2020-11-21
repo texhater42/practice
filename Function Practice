@@ -1,18 +1,11 @@
-#include <stdio.h>
+#pragma once
 
-#include "MyHead.h"
+#define SIZE 10
+extern int globalArray[SIZE] = { 0 };
+extern int runCounter = 1;
 
 
-
-
-int main() {
-
-	generateRandomValues();
-	printValues();
-	sortValues();
-	printValues();
-	
-	
-
-	return 0;
-}
+int generateRandomValues();
+int printValues();
+int modValues();
+int sortValues();
