@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#include "MyHead.h"
+
+
+
+
+int main() {
+
+	generateRandomValues();
+	printValues();
+	sortValues();
+	printValues();
+	
+	
+
+	return 0;
+}
